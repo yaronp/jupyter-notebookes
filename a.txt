@@ -1,0 +1,4 @@
+Rebasing works by transferring each local commit to the updated master branch one at a time. 
+This means that you catch merge conflicts on a commit-by-commit basis rather than resolving all of them in one massive merge commit. 
+This keeps your commits as focused as possible and makes for a clean project history. 
+In turn, this makes it much easier to figure out where bugs were introduced and, if necessary, to roll back changes with minimal impact on the project.
